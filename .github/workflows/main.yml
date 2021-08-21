@@ -1,0 +1,14 @@
+name: 定时任务
+on:
+  schedule:
+    - cron:  '*/1 * * * *'
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 刷新
+      run: |
+        ls
+        https://words.littletools.ml/me
+        ls
