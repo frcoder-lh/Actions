@@ -10,5 +10,5 @@ jobs:
     - name: 刷新
       run: |
         ls
-        wget https://words.littletools.ml/me
+        wget https://frcoder-lh.github.io/programer-words/me
         ls
