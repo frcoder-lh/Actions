@@ -22,8 +22,8 @@ jobs:
           -H "sec-fetch-dest: empty" \
           -H "sec-fetch-mode: cors" \
           -H "sec-fetch-site: cross-site" \
-          -H "x-lc-id: ${{ secrets.X_LC_ID }}" \
-          -H "x-lc-key: ${{ secrets.X_LC_KEY }}" \
+          -H "x-lc-id: ${{ secrets.LEANCLOUD_PUBLIC_ID }}" \
+          -H "x-lc-key: ${{ secrets.LEANCLOUD_PUBLIC_KEY }}" \
           -H "referrer: https://frcoder-lh.github.io/" \
           -H "referrerPolicy: strict-origin-when-cross-origin" \
           "https://i2egbesf.lc-cn-n1-shared.com/1.1/classes/words?keys=-createdAt%2C-updatedAt%2C-objectId"
